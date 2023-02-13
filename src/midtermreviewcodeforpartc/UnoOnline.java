@@ -46,7 +46,7 @@ public class UnoOnline
         String password="";
         while(!validPassword)
         {
-            System.out.println("Passwords must have at least 8 characters");
+            System.out.println("Passwords must have at least 10 characters");
             System.out.println("Passwords must have at least one special character");
             System.out.println("Please enter your desired password:"); 
             
@@ -61,7 +61,7 @@ public class UnoOnline
                     specialCharCount++;
                 }
             }
-            if(specialCharCount>0 &&password.length()>7)
+            if(specialCharCount>0 &&password.length()>9)
             {
                 validPassword=true;
             }
